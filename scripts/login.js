@@ -15,7 +15,7 @@ function teste() {
         return false;
     } else {
         alert("Login!");
-        window.location.href = "sucesso2.html";
+        window.location.href = "main.html";
         return false;
     }
 };
