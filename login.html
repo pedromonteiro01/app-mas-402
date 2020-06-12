@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+        }
+        
+        .button {
+            border: 2px solid rgb(201, 114, 0);
+            background-color: #FFa500;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        
+        .container {
+            height: 200px;
+            position: relative;
+        }
+        
+        .row {
+            margin: 0;
+            position: absolute;
+            top: 10%;
+            left: 46%;
+            right: 54%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div><img src="img/DB.jpg" class="center"></div>
+    <br />
+    <br />
+    <form method="get" id="form2" onsubmit="return teste()">
+        <div>
+            <table class="center">
+                </tr>
+                <tr></tr>
+                <td><label for="nome">Nome:</label></td>
+                <td><input type="text" name="nome" placeholder="Insira o seu nome." size="25"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <br />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password:</label></td>
+                    <td><input type="password" name="pass" placeholder="Digite a sua palavra-passe" size="25"> </td>
+                </tr>
+            </table>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <button type="submit" class="button">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="scripts/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/rate.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h2> A sua conta:</h2>
+            <br />
+            <form name="PersonData" id="form" method="get" class="form-horizontal" onsubmit=" return teste()">
+                <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Email: </label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Email" name="email" style="width: 400px;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Password</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPass" placeholder="Password" name="Pass" style="width: 400px;">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Comentários</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="inputComentarios" name="coments" placeholder="Comentários..." style="width: 400px;"> </textarea>
+                    </div>
+                </div>
+                <br />
+                <h1></h1>
+                <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                    <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+                </div>
+
+                <div class="container-2">
+                    <div class="row">
+                        <div class="col text-center">
+                            <a href="sucesso2.html"><button type="submit" class="button" onclick="teste">Enviar</button></a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--<br />
+    <h1></h1>
+    <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+        <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+    </div>
+
+    <div class="container-2">
+        <div class="row">
+            <div class="col text-center">
+                <a href="sucesso2.html"><button type="submit" class="button" onclick="teste">Enviar</button></a>
+            </div>
+        </div>
+    </div>-->
+    <script src="scripts/rate.js"></script>
+
+</body>
+
+</html>

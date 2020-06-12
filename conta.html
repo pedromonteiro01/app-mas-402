@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div>
+        <form id="formm" method="get" onsubmit="return teste()">
+            <fieldset>
+                <legend style="color: #ff8c00;">DriveBy</legend>
+                <table>
+                    </tr>
+                    <tr>
+                        <td><label for="nome">Nome:</label></td>
+                        <td><input type="text" name="nome" placeholder="Insira o seu nome." size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="sobre nome">Email:</label></td>
+                        <td><input type="text" name="email" id="email" placeholder="Insira o seu email." size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password:</label></td>
+                        <td><input type="password" name="pass" id="password" placeholder="Digite a sua palavra-passe" size="25"> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Confirmar Password:</label></td>
+                        <td><input type="password" name="pass2" id="confirm_password" placeholder="Confirme a sua palavra-passe" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br />
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <table>
+                    <!--
+                        <p>Rua: <textarea name="Rua" placeholder="Localidade" id="rua"></textarea> </p>
+                        <br />
+                        <p> Cidade: <input type="text" name="cidade" placeholder="Digite a sua cidade."></p>
+                        <br />
+                        <p> Código-postal: <input type="text" name="codigopostal" placeholder="1111" size="5"> - <input type="text" name="codigopostal" placeholder="111" size="3"></p>
+                    -->
+                    <tr>
+                        <tr>
+                            <td>
+                                <br />
+                            </td>
+                        </tr>
+                        <td><label for="rua">Rua:</label></td>
+                        <td><input type="text " name="rua" placeholder="Localidade" id="rua">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="cidade">Cidade:</label></td>
+                        <td><input type="text" name="cidade" placeholder="Insira a sua cidade." id="cidade"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="cpostal">Código-postal:</label></td>
+                        <td><input name="cpostal" placeholder="1111" id="cpostal" size="5"> - <input name="cpostal" placeholder="111" id="cpostal" size="3"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br />
+                        </td>
+                    </tr>
+
+                    <td><label for="paises">País:</label></td>
+                    <td>
+                        <form autocomplete="off" action="/action_page.php">
+                            <div class="autocomplete" style="width:300px;">
+                                <input id="myInput" type="text" name="myCountry" placeholder="Country">
+                            </div>
+                </table>
+            </fieldset>
+            <br />
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <a href="sucesso.html"><button type="submit" class="button" id="criar">Criar</button></a>
+                    </div>
+                </div>
+            </div>
+            </form>
+    </div>
+    <div>
+        <p>
+            Já possui conta?
+            <a href="login.html" id="login"> Login </a>
+        </p>
+    </div>
+
+    <script src="scripts/search.js"></script>
+</body>
+
+</html>
